@@ -22,4 +22,6 @@ if [ "$respuesta" = "1" ]; then
         echo "El sistema entero ha sido actualizado"
 elif [ "$respuesta" = "2" ]; then
         exit
+else
+        echo "Has introducido una respuesta incorrecta"
 fi
