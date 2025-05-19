@@ -32,7 +32,7 @@ El script debe ejecutarse con permisos de root para poder realizar la actualizac
 
 ### Clona el repositorio:
 
-git clone https://github.com/usuario/script-update-system.git
+git clone https://github.com/jorgegarrido98/script-update-system.git
 
 ### Da permisos de ejecución al script:
 
