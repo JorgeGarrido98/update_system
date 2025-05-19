@@ -12,7 +12,7 @@ sleep 2
 echo -e "1) Actualizar \n2) Salir"
 read -p "Respuesta: " respuesta
 
-if [ "$respuesta" = "Actualizar" ]; then
+if [ "$respuesta" = "1" ]; then
         apt update
         apt upgrade -y #El parámetro -y sirve para automatizar la respuesta de Si o No para actualizar el sistema
         apt autoremove -y
@@ -20,6 +20,6 @@ if [ "$respuesta" = "Actualizar" ]; then
         echo
         echo "================================================================"
         echo "El sistema entero ha sido actualizado"
-elif [ "$respuesta" = "Salir" ]; then
+elif [ "$respuesta" = "2" ]; then
         exit
 fi
